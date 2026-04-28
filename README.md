@@ -163,7 +163,7 @@ Used for structured relational data.
 
 ---
 
-### Order Endpoints orders order
+### Order Endpoints 
 ```
 
 | Method | Endpoint     |  Description               |
