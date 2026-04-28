@@ -152,27 +152,27 @@ Used for structured relational data.
 ### Product Endpoints
 ```
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET    | /products | Retrieve all products |
-| GET    | /products/:id | Retrieve a specific product |
-| POST   | /products | Create a new product |
-| PUT    | /products/:id | Update a product |
-| DELETE | /products/:id | Delete a product |
+| Method | Endpoint       |  Description                 |
+|--------|----------------|------------------------------|
+| GET    | /products      |  Retrieve all products       |
+| GET    | /products/:id  |  Retrieve a specific product |
+| POST   | /products      |  Create a new product        |
+| PUT    | /products/:id  |  Update a product            |
+| DELETE | /products/:id  |  Delete a product            |
 ```
 
 ---
 
-### Order Endpoints
+### Order Endpoints orders order
 ```
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET    | /orders | Retrieve all orders |
-| GET    | /orders/:id | Retrieve a specific order |
-| POST   | /orders | Create a new order |
-| PUT    | /orders/:id | Update an order |
-| DELETE | /orders/:id | Delete an order |
+| Method | Endpoint     |  Description               |
+|--------|--------------|----------------------------|
+| GET    | /orders      |  Retrieve all orders       |
+| GET    | /orders/:id  |  Retrieve a specific order |
+| POST   | /orders      |  Create a new order        |
+| PUT    | /orders/:id  |  Update a order            |
+| DELETE | /orders/:id  |  Delete a order            |
 ```
 
 ---
