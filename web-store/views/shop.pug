@@ -1,0 +1,28 @@
+extends layouts/main
+
+block content
+  include partials/header
+
+  .page-content
+    h3 Available Products
+
+    if user.isPremium
+      p.premium Premium Member
+
+    .products
+      each product in products
+        .product-card
+          h4= product.name
+
+          if isSale(product.price, product.salePrice)
+            p
+              del $#{product.price}
+              strong.sale $#{product.salePrice}
+          else
+            p
+              strong $#{product.price}
+
+          form(action=`/cart/add/${product._id}` method="POST")
+            button(type="submit") Add to Cart
+
+  include partials/footer

@@ -1,0 +1,9 @@
+extends layouts/main
+block content
+  include partials/header
+  .page-content
+    h2 Welcome #{user.name}
+    if user.isPremium
+      p.premium Premium Member
+  include partials/footer
+   

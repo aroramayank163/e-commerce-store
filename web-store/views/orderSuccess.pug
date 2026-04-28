@@ -1,0 +1,13 @@
+extends layouts/main
+block content
+  include partials/header
+  .page-content
+    h2 Order Created
+    p Your order has been created successfully.
+    p Items ordered: #{itemCount}
+    p Total paid: $#{total}
+    form(action="/dropAll" method="POST")
+      button(type="submit") Remove All
+    a.back-link(href="/shop") Back to Shop
+
+  include partials/footer
